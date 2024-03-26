@@ -1,1 +1,7 @@
-# Bob1
+public class myClock{
+
+//constuctor.
+public myClock() {
+
+}
+}# Bob1
