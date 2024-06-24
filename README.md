@@ -2,8 +2,7 @@ import time  # Import the time module for sleep and current time functions
 
 def main():
     while True:  # Infinite loop to continuously update and display the time
-        current_time = time.localtime()  # Get the current time in local timezone
-        
+        current_time = time.localtime()  # Get the current time in local timezone 
         # Extract hour, minute, and second from current_time
         hour = current_time.tm_hour
         minute = current_time.tm_min
@@ -25,6 +24,5 @@ def main():
         
         # Wait for 1 second before updating the time again
         time.sleep(1)
-
 if __name__ == "__main__":
     main()
